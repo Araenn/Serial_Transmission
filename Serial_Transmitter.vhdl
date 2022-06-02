@@ -76,4 +76,7 @@ begin
       baud_count <= baud_count + 1; --temps du bit
       state <= stop;
      end if;
-end case;
+  end case;
+  end if;
+end process;
+end Behavioral;
